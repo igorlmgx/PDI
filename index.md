@@ -1,4 +1,17 @@
-# Índice
-
-
 # [Semana 1](semana1.md/)
+- ### [Conceitos básicos](semana1.md/#conceitos-básicos)
+  - [Formas de imprimir variáveis](semana1.md/#formas-de-imprimir-variáveis)
+  - [Estrutura condicional](semana1.md/#estrutura-condicional)
+  - [Estrutura de repetição](semana1.md/#estrutura-de-repetição)
+  - [Listas](semana1.md/#listas)
+  - [Funções](semana1.md/#funções)
+- ### [Numpy](semana1.md/#numpy)
+  - [Vetores](semana1.md/#vetores)
+  - [Matrizes](semana1.md/#matrizes)
+  - [Sistemas de equações](semana1.md/#sistemas-de-equações)
+- ### [Imagens](semana1.md/#imagens)
+  - [Leitura e exibição](semana1.md/#leitura-e-exibição)
+  - [Imagens coloridas e canais](semana1.md/#imagens-coloridas-e-canais)
+- ### [Transformações pontuais](semana1.md/#transformações-pontuais)
+  - [Negativo](semana1.md/#negativo)
+  - [Logaritmo](semana1.md/#logaritmo)
