@@ -1,4 +1,6 @@
-# [Semana 1](semana1.md/)
+# Índice
+
+## [Semana 1](semana1.md/)
 - ### [Conceitos básicos](semana1.md/#conceitos-básicos)
   - [Formas de imprimir variáveis](semana1.md/#formas-de-imprimir-variáveis)
   - [Estrutura condicional](semana1.md/#estrutura-condicional)
