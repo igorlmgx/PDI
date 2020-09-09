@@ -4,12 +4,12 @@
 @import "{{ site..theme }}";
 
 #header_wrap .inner {
-    padding: 1 rem;
+    padding: 1rem;
 }
 
 .inner {
     padding: 1rem;
-    max-width: 90vw;
+    max-width: 80vw;
 }
 
 @media (max-width: 992px) {

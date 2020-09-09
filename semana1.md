@@ -1,8 +1,7 @@
 [voltar](index.md/)
-# Semana 1
-## Conceitos básicos
+# Conceitos básicos
 
-Diferentes formas de imprimir variáveis no terminal
+### Diferentes formas de imprimir variáveis no terminal
 
 ```python
 print('valor = %d'%valor)
