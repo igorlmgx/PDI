@@ -162,7 +162,7 @@ plt.imshow(img_log, 'gray')
 
 Numpy
 ```python
-img_log = np.log(img)
+img_log = np.log(img.astype(float))
 plt.imshow(img_log, 'gray')
 ```
 
