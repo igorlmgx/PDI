@@ -24,10 +24,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
+    margin-top: 2rem;
     margin-bottom: 1.3rem;
     padding-bottom: 0;
     background: none;
     border-bottom: 1px solid #bbb;
+}
+
+h4 {
+    margin-top: 1rem;
 }
 
 #project_tagline {

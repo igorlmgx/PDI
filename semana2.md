@@ -1,7 +1,7 @@
 [voltar](index.md/)
-# Histograma
+## Histograma
 
-### Sinal de 1 dimensão
+#### Sinal de 1 dimensão
 
 Python
 ```python
@@ -28,7 +28,7 @@ Numpy
 hist, bins = np.histogram(signal, num_bins)
 ```
 
-### Imagem
+#### Imagem
 
 Python
 ```python
@@ -52,7 +52,7 @@ Matplotlib
 plt.hist(img.flatten(), num_bins, edgecolor='k')
 ```
 
-### Equalização de histograma
+#### Equalização de histograma
 
 ```python
 def histogram_equalization(img):
@@ -68,7 +68,6 @@ def histogram_equalization(img):
             soma += hist[j]
         out_intensity[k] = c*soma
     
-    # Aplica a transformação
     img_eq = np.zeros(img.shape)
     num_rows, num_cols = img.shape
     for row in range(num_rows):
@@ -78,9 +77,9 @@ def histogram_equalization(img):
     return img_eq
 ```
 
-# Correlação-cruzada e Convolução
+## Correlação-cruzada e Convolução
 
-### Correlação-cruzada
+#### Correlação-cruzada
 
 Python
 ```python
@@ -134,7 +133,7 @@ Scipy
 scipy.signal.correlate(img, w, mode='same')
 ```
 
-### Convolução
+#### Convolução
 
 Correlação-cruzada com filtro invertido
 ```python
@@ -149,15 +148,15 @@ Scipy
 scipy.signal.convolve(img, w, mode='same')
 ```
 
-# Suavização
+## Suavização
 
-### Média simples
+#### Média simples
 
 ```python
 tam = 5
 w = np.full([tam,tam], 1./tam**2)
 ```
-### Suavização gaussiana
+#### Suavização gaussiana
 
 Filtro 1D
 ```python
@@ -188,7 +187,7 @@ def gaussian_filter_2d(filter_size):
     return z
 ```
 
-### Função seno com ruído
+#### Função seno com ruído
 
 ```python
 def corrupt_sin(S, r):
@@ -196,7 +195,7 @@ def corrupt_sin(S, r):
     return np.sin(x) + (r * np.random.rand(len(x)))
 ```
 
-### Exemplo pacman
+#### Exemplo pacman
 
 ```python
 pacman = plt.imread('pacman.tiff')

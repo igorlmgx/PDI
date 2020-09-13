@@ -1,7 +1,7 @@
 [voltar](index.md/)
-# Conceitos básicos
+## Conceitos básicos
 
-### Formas de imprimir variáveis
+#### Formas de imprimir variáveis
 
 ```python
 print('valor = %d'%valor)
@@ -9,7 +9,7 @@ print('valor = {}'.format(valor))
 print(f'valor = {valor}')
 ```
 
-### Estrutura condicional
+#### Estrutura condicional
 
 ```python
 if cond1 and cond2:
@@ -20,7 +20,7 @@ else:
     print("usando else")
 ```
 
-### Estrutura de repetição
+#### Estrutura de repetição
 
 ```python
 for val in lista:
@@ -33,7 +33,7 @@ for i in range(10):
     print(1)
 ```
 
-### Listas
+#### Listas
 
 ```python
 lista = [1, 2, True, "quatro", 5]
@@ -47,7 +47,7 @@ valor = lista.pop()
 print(lista[0:3])
 ```
 
-### Funções
+#### Funções
 
 ```python
 def soma(v1, v2):
@@ -56,9 +56,9 @@ def soma(v1, v2):
 print(soma(3, 4))
 ```
 
-# Numpy
+## Numpy
 
-### Vetores
+#### Vetores
 
 ```python
 vetor = [2.3, 5.4, 3.3, 2.5, 7.3]
@@ -73,7 +73,7 @@ media = np.mean(v)
 desvioPadrao = np.std(v)
 ```
 
-### Matrizes
+#### Matrizes
 
 ```python
 matriz = [[1, 2, 3],
@@ -85,7 +85,7 @@ produtoMatricial = np.dot(matriz, matriz)
 soma = matriz + matriz
 ```
 
-### Sistemas de equações
+#### Sistemas de equações
 
 ```python
 # 3x + 5y  + 3z = 54.6
@@ -102,16 +102,16 @@ res = np.linalg.solve(coeficientes, valores)
 print("x={:.2}, y={:.2}, z={:.2}".format(res[0], res[1], res[2]))
 ```
 
-# Imagens
+## Imagens
 
-### Leitura e exibição
+#### Leitura e exibição
 
 ```python
 img = plt.imread('earth_gray.jpg')
 plt.imshow(img, cmap='gray')
 ```
 
-### Imagens coloridas e canais
+#### Imagens coloridas e canais
 
 ```python
 img = plt.imread('earth.jpg')
@@ -129,9 +129,9 @@ plt.subplot(1, 3, 3)
 plt.imshow(img_blue, cmap='gray')
 ```
 
-# Transformações pontuais
+## Transformações pontuais
 
-### Negativo
+#### Negativo
 
 Em python
 ```python
@@ -149,7 +149,7 @@ img_neg_np = 255 - img
 plt.imshow(img_neg_np, 'gray')
 ```
 
-### Logaritmo
+#### Logaritmo
 
 Python
 ```python
