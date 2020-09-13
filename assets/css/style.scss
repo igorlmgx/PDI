@@ -17,3 +17,53 @@
         max-width: unset;
     }
 }
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    letter-spacing: 0;
+}
+
+h2 {
+    margin-bottom: 1.3rem;
+    padding-bottom: 0;
+    background: none;
+    border-bottom: 1px solid #bbb;
+}
+
+#project_tagline {
+    border-bottom: none;
+}
+
+p {
+    margin: 1rem 0 0 0;
+}
+
+a {
+    color: #01579b;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+    color: #0091ea;
+}
+
+ul {
+    color: #444;
+    margin-bottom: 2rem;
+}
+
+ul ul {
+    margin-bottom: 0;
+}
+
+ul h3 {
+    margin: .5rem 0 0 0;
+}
+
+hr {
+    height: 1px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background: none;
+    background-color: #bbb;
+}
