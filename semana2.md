@@ -116,7 +116,6 @@ def correlation(img, w):
     half_r_size = f_num_rows//2
     half_c_size = f_num_cols//2
     
-    img_padded = np.zeros((num_rows+f_num_rows-1, num_cols+f_num_cols-1), dtype=img.dtype)
     img_padded = np.pad(img, ((half_r_size,half_r_size),(half_c_size,half_c_size)), mode='constant')
     
     img_filtered = np.zeros((num_rows, num_cols))
